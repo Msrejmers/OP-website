@@ -1,0 +1,144 @@
+/*Components used for the layout of the page*/
+body{
+  grid-template-rows: 10% 25% auto;
+  grid-template-columns: auto auto auto;
+
+  background-color:black
+  }
+
+  /* Components for the line underneath the topbar*/
+  hr.red {
+    border: 1px solid red;
+  }
+
+  /*Components for the main header*/
+  h1{
+    font-family:'Syncopate', sans-serif;
+    font-weight: 700px;
+    font-size: 100px;
+    text-align: center;
+    color:ghostwhite
+  }
+
+  /*Components for the font for my Design Statement*/
+  h2{
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 400px;
+    font-size: 60px;
+    padding-right: 150px;
+    color:darkgrey
+  }
+
+  /*Components for the font for my Name on the intex*/
+  h3{
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 400px;
+      font-size:20px;
+      padding-left: 100px;
+      color:dimgray
+  }
+
+  /*Components for the font for my personal Info in my "Contact" and "Project" page*/
+  h4{
+      font-family:'Fahkwang', sans-serif;
+      font-size: 25px;
+      text-align: center;
+      color:dimgray
+  }
+
+  /*Components for the font for my text in my "About me" page*/
+  h5{ 
+    display:inline-block;
+    font-family:'Fahkwang', sans-serif;
+    font-size: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color:dimgray
+  }
+
+  /*Components for the font for my Design Statement*/
+  h6{ 
+    display:inline-block;
+    font-family:'Fahkwang', sans-serif;
+    font-size: 25px;
+    color:dimgray
+  }
+
+  /*Components for the Navigation top bar*/
+  .topnav a {
+      font-size: 20px;
+      font-family: 'Fahkwang', sans-serif;
+      color: white;
+      text-decoration: none;
+      padding-bottom: 100px;
+      padding: 40px 40px;
+      text-align: center;
+      font-weight: lighter;
+  }
+
+  /* Componetns to hover over the Hyperlinks (aka. Navigationbar and "CV") for bold text*/
+  a:hover {
+    font-weight: 999;
+  }
+
+  /*Components for all given Hyperlinks*/
+  a {
+    font-size: 20px;
+    font-family: 'Fahkwang', sans-serif;
+    color: darkgrey;
+    text-decoration: none;
+    text-align: center;
+    font-weight: lighter;
+}
+
+  /*Components for the Flexbox row 
+  Flexboxes are used to be able to show multiple elements in a row or column, 
+  in this case, to show the elements horizontally*/
+ .flex-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+        background-color:black
+  } 
+
+  /*Properties of flexbox for dividers*/
+  .flex-container > div {
+        margin: 5%;
+  } 
+
+  /*Components for the Flexbox column 
+  Flexboxes are used to be able to show multiple elements in a row or column, 
+  in this case, to show the elements vertically*/
+  .flex-container2 {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        background-color:black
+    } 
+  /*Properties of flexbox for dividers*/
+  .flex-container2 > div {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 10%;
+    } 
+
+  /*Components used for the Projects page*/
+  .flex-container3 {
+      display: flex;
+  } 
+  /*Properties of flexbox for dividers*/
+  .flex-container3 > div {
+      margin: 5%;
+  } 
+
+  /*Components to the pictures at first glance*/
+  img{
+      max-width: 100%;
+      filter: grayscale(100%);
+      height: auto;
+    }
+
+  /*Components of when hovering over the pictures*/
+  img:hover {
+    filter: grayscale(0%);
+  }
